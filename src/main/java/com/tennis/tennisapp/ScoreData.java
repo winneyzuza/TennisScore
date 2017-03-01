@@ -27,8 +27,6 @@ public class ScoreData {
         this.score = score;
     }
 
-    
-    
     public static Comparator<ScoreData> ScoreNoComparator = (ScoreData s1, ScoreData s2) -> {
         String ScoreData1 = s1.getGame().toUpperCase();
         String ScoreData2 = s2.getGame().toUpperCase();
